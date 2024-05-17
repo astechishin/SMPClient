@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-@main
+
+
 struct SMPClientApp: App {
     var body: some Scene {
         WindowGroup {
@@ -15,3 +16,4 @@ struct SMPClientApp: App {
         }
     }
 }
+

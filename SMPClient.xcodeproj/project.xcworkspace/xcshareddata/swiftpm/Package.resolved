@@ -1,0 +1,24 @@
+{
+  "originHash" : "f41bc43c737fcb9eb5a6b992cdf1ab2bdb2a70d967868a700e5b672c55090857",
+  "pins" : [
+    {
+      "identity" : "appstandard",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/astechishin/AppStandard",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9936b181ffdaac6a670da5c83a103e84961c7dbd"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-syntax.git",
+      "state" : {
+        "revision" : "64889f0c732f210a935a0ad7cda38f77f876262d",
+        "version" : "509.1.1"
+      }
+    }
+  ],
+  "version" : 3
+}

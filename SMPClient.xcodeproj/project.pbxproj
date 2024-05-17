@@ -14,6 +14,66 @@
 		01BEA2D82BF68E6B0097C915 /* SMPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA2D72BF68E6B0097C915 /* SMPClientTests.swift */; };
 		01BEA2E22BF68E6B0097C915 /* SMPClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA2E12BF68E6B0097C915 /* SMPClientUITests.swift */; };
 		01BEA2E42BF68E6B0097C915 /* SMPClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA2E32BF68E6B0097C915 /* SMPClientUITestsLaunchTests.swift */; };
+		01BEA2F42BF694170097C915 /* EntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA2F32BF694170097C915 /* EntryPoint.swift */; };
+		01BEA2F72BF69A3E0097C915 /* AppStandard in Frameworks */ = {isa = PBXBuildFile; productRef = 01BEA2F62BF69A3E0097C915 /* AppStandard */; };
+		01BEA2FA2BF69AA70097C915 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA2F92BF69AA70097C915 /* Base.swift */; };
+		01BEA2FC2BF69B3A0097C915 /* DateFormatter+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA2FB2BF69B3A0097C915 /* DateFormatter+extension.swift */; };
+		01BEA2FE2BF69BB40097C915 /* Bundle+json_load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA2FD2BF69BB40097C915 /* Bundle+json_load.swift */; };
+		01BEA3002BF69C280097C915 /* XCTest+extenions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA2FF2BF69C280097C915 /* XCTest+extenions.swift */; };
+		01BEA3022BF6A2270097C915 /* FhirApi+Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3012BF6A2270097C915 /* FhirApi+Patient.swift */; };
+		01BEA31F2BF6A2C70097C915 /* FhirApi+Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3032BF6A2C60097C915 /* FhirApi+Identifier.swift */; };
+		01BEA3202BF6A2C70097C915 /* FhirApi+Contributor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3042BF6A2C60097C915 /* FhirApi+Contributor.swift */; };
+		01BEA3212BF6A2C70097C915 /* FhirApi+Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3052BF6A2C60097C915 /* FhirApi+Meta.swift */; };
+		01BEA3222BF6A2C70097C915 /* FhirApi+Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3062BF6A2C60097C915 /* FhirApi+Money.swift */; };
+		01BEA3232BF6A2C70097C915 /* FhirApi+ParameterDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3072BF6A2C60097C915 /* FhirApi+ParameterDefinition.swift */; };
+		01BEA3242BF6A2C70097C915 /* FhirApi+BackboneElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3082BF6A2C60097C915 /* FhirApi+BackboneElement.swift */; };
+		01BEA3252BF6A2C70097C915 /* FhirApi+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3092BF6A2C60097C915 /* FhirApi+Extension.swift */; };
+		01BEA3262BF6A2C70097C915 /* FhirApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA30A2BF6A2C60097C915 /* FhirApi.swift */; };
+		01BEA3272BF6A2C70097C915 /* FhirApi+Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA30B2BF6A2C60097C915 /* FhirApi+Coding.swift */; };
+		01BEA3282BF6A2C70097C915 /* FhirApi+Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA30C2BF6A2C60097C915 /* FhirApi+Address.swift */; };
+		01BEA3292BF6A2C70097C915 /* FhirApi+Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA30D2BF6A2C60097C915 /* FhirApi+Attachment.swift */; };
+		01BEA32A2BF6A2C70097C915 /* FhirApi+HumanName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA30E2BF6A2C60097C915 /* FhirApi+HumanName.swift */; };
+		01BEA32B2BF6A2C70097C915 /* FhirApi+CodeableReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA30F2BF6A2C60097C915 /* FhirApi+CodeableReference.swift */; };
+		01BEA32C2BF6A2C70097C915 /* FhirApi+CodeableConcept.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3102BF6A2C60097C915 /* FhirApi+CodeableConcept.swift */; };
+		01BEA32D2BF6A2C70097C915 /* FhirApi+ContactPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3112BF6A2C60097C915 /* FhirApi+ContactPoint.swift */; };
+		01BEA32E2BF6A2C70097C915 /* FhirApi+Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3122BF6A2C60097C915 /* FhirApi+Duration.swift */; };
+		01BEA32F2BF6A2C70097C915 /* FhirApi+Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3132BF6A2C60097C915 /* FhirApi+Element.swift */; };
+		01BEA3302BF6A2C70097C915 /* FhirApi+Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3142BF6A2C60097C915 /* FhirApi+Expression.swift */; };
+		01BEA3312BF6A2C70097C915 /* FhirApi+ElementDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3152BF6A2C60097C915 /* FhirApi+ElementDefinition.swift */; };
+		01BEA3322BF6A2C70097C915 /* FhirApi+MarketingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3162BF6A2C60097C915 /* FhirApi+MarketingStatus.swift */; };
+		01BEA3332BF6A2C70097C915 /* FhirApi+Narrative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3172BF6A2C60097C915 /* FhirApi+Narrative.swift */; };
+		01BEA3342BF6A2C70097C915 /* FhirApi+Dosage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3182BF6A2C60097C915 /* FhirApi+Dosage.swift */; };
+		01BEA3352BF6A2C70097C915 /* FhirApi+ContactDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3192BF6A2C60097C915 /* FhirApi+ContactDetail.swift */; };
+		01BEA3362BF6A2C70097C915 /* FhirApi+DataRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA31A2BF6A2C60097C915 /* FhirApi+DataRequirement.swift */; };
+		01BEA3372BF6A2C70097C915 /* FhirApi+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA31B2BF6A2C60097C915 /* FhirApi+Count.swift */; };
+		01BEA3382BF6A2C70097C915 /* FhirApi+Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA31C2BF6A2C70097C915 /* FhirApi+Annotation.swift */; };
+		01BEA3392BF6A2C70097C915 /* FhirApi+Age.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA31D2BF6A2C70097C915 /* FhirApi+Age.swift */; };
+		01BEA33A2BF6A2C70097C915 /* FhirApi+Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA31E2BF6A2C70097C915 /* FhirApi+Distance.swift */; };
+		01BEA34B2BF6A2E10097C915 /* FhirApi+Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA33B2BF6A2E00097C915 /* FhirApi+Signature.swift */; };
+		01BEA34C2BF6A2E10097C915 /* FhirApi+Quantity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA33C2BF6A2E00097C915 /* FhirApi+Quantity.swift */; };
+		01BEA34D2BF6A2E10097C915 /* FhirApi+TriggerDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA33D2BF6A2E10097C915 /* FhirApi+TriggerDefinition.swift */; };
+		01BEA34E2BF6A2E10097C915 /* FhirApi+RelatedArtifact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA33E2BF6A2E10097C915 /* FhirApi+RelatedArtifact.swift */; };
+		01BEA34F2BF6A2E10097C915 /* FhirApi+UsageContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA33F2BF6A2E10097C915 /* FhirApi+UsageContext.swift */; };
+		01BEA3502BF6A2E10097C915 /* FhirApi+Ratio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3402BF6A2E10097C915 /* FhirApi+Ratio.swift */; };
+		01BEA3512BF6A2E10097C915 /* FhirDatatype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3412BF6A2E10097C915 /* FhirDatatype.swift */; };
+		01BEA3522BF6A2E10097C915 /* FhirApi+Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3422BF6A2E10097C915 /* FhirApi+Period.swift */; };
+		01BEA3532BF6A2E10097C915 /* FhirApi+Timing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3432BF6A2E10097C915 /* FhirApi+Timing.swift */; };
+		01BEA3542BF6A2E10097C915 /* FhirApi+Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3442BF6A2E10097C915 /* FhirApi+Range.swift */; };
+		01BEA3552BF6A2E10097C915 /* FhirApi+ProdCharacteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3452BF6A2E10097C915 /* FhirApi+ProdCharacteristic.swift */; };
+		01BEA3562BF6A2E10097C915 /* FhirApi+Reference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3462BF6A2E10097C915 /* FhirApi+Reference.swift */; };
+		01BEA3572BF6A2E10097C915 /* FhirApi+ProductShelfLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3472BF6A2E10097C915 /* FhirApi+ProductShelfLife.swift */; };
+		01BEA3582BF6A2E10097C915 /* FhirApi+SampledData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3482BF6A2E10097C915 /* FhirApi+SampledData.swift */; };
+		01BEA3592BF6A2E10097C915 /* FhirApi+Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3492BF6A2E10097C915 /* FhirApi+Population.swift */; };
+		01BEA35A2BF6A2E10097C915 /* FhirApi+RatioRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA34A2BF6A2E10097C915 /* FhirApi+RatioRange.swift */; };
+		01BEA35C2BF6A46B0097C915 /* FhirResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA35B2BF6A46B0097C915 /* FhirResource.swift */; };
+		01BEA35E2BF6A68C0097C915 /* FhirApi+MedicationStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA35D2BF6A68C0097C915 /* FhirApi+MedicationStatement.swift */; };
+		01BEA3612BF6AACB0097C915 /* FhirApi+WrappedResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA35F2BF6AACB0097C915 /* FhirApi+WrappedResource.swift */; };
+		01BEA3652BF6C4B40097C915 /* JsonApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3642BF6C4B40097C915 /* JsonApiClient.swift */; };
+		01BEA3672BF6C5340097C915 /* SMPApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3662BF6C5340097C915 /* SMPApi.swift */; };
+		01BEA36D2BF727240097C915 /* FhirApi+List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA3692BF727240097C915 /* FhirApi+List.swift */; };
+		01BEA36E2BF727240097C915 /* FhirApi+Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA36A2BF727240097C915 /* FhirApi+Medication.swift */; };
+		01BEA36F2BF727240097C915 /* FhirApi+MedicationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA36B2BF727240097C915 /* FhirApi+MedicationRequest.swift */; };
+		01BEA3702BF727240097C915 /* FhirApi+GlobalEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA36C2BF727240097C915 /* FhirApi+GlobalEnums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +105,66 @@
 		01BEA2DD2BF68E6B0097C915 /* SMPClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMPClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01BEA2E12BF68E6B0097C915 /* SMPClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMPClientUITests.swift; sourceTree = "<group>"; };
 		01BEA2E32BF68E6B0097C915 /* SMPClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMPClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01BEA2F32BF694170097C915 /* EntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPoint.swift; sourceTree = "<group>"; };
+		01BEA2F92BF69AA70097C915 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		01BEA2FB2BF69B3A0097C915 /* DateFormatter+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+extension.swift"; sourceTree = "<group>"; };
+		01BEA2FD2BF69BB40097C915 /* Bundle+json_load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+json_load.swift"; sourceTree = "<group>"; };
+		01BEA2FF2BF69C280097C915 /* XCTest+extenions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+extenions.swift"; sourceTree = "<group>"; };
+		01BEA3012BF6A2270097C915 /* FhirApi+Patient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Patient.swift"; sourceTree = "<group>"; };
+		01BEA3032BF6A2C60097C915 /* FhirApi+Identifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Identifier.swift"; sourceTree = "<group>"; };
+		01BEA3042BF6A2C60097C915 /* FhirApi+Contributor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Contributor.swift"; sourceTree = "<group>"; };
+		01BEA3052BF6A2C60097C915 /* FhirApi+Meta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Meta.swift"; sourceTree = "<group>"; };
+		01BEA3062BF6A2C60097C915 /* FhirApi+Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Money.swift"; sourceTree = "<group>"; };
+		01BEA3072BF6A2C60097C915 /* FhirApi+ParameterDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+ParameterDefinition.swift"; sourceTree = "<group>"; };
+		01BEA3082BF6A2C60097C915 /* FhirApi+BackboneElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+BackboneElement.swift"; sourceTree = "<group>"; };
+		01BEA3092BF6A2C60097C915 /* FhirApi+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Extension.swift"; sourceTree = "<group>"; };
+		01BEA30A2BF6A2C60097C915 /* FhirApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FhirApi.swift; sourceTree = "<group>"; };
+		01BEA30B2BF6A2C60097C915 /* FhirApi+Coding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Coding.swift"; sourceTree = "<group>"; };
+		01BEA30C2BF6A2C60097C915 /* FhirApi+Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Address.swift"; sourceTree = "<group>"; };
+		01BEA30D2BF6A2C60097C915 /* FhirApi+Attachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Attachment.swift"; sourceTree = "<group>"; };
+		01BEA30E2BF6A2C60097C915 /* FhirApi+HumanName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+HumanName.swift"; sourceTree = "<group>"; };
+		01BEA30F2BF6A2C60097C915 /* FhirApi+CodeableReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+CodeableReference.swift"; sourceTree = "<group>"; };
+		01BEA3102BF6A2C60097C915 /* FhirApi+CodeableConcept.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+CodeableConcept.swift"; sourceTree = "<group>"; };
+		01BEA3112BF6A2C60097C915 /* FhirApi+ContactPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+ContactPoint.swift"; sourceTree = "<group>"; };
+		01BEA3122BF6A2C60097C915 /* FhirApi+Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Duration.swift"; sourceTree = "<group>"; };
+		01BEA3132BF6A2C60097C915 /* FhirApi+Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Element.swift"; sourceTree = "<group>"; };
+		01BEA3142BF6A2C60097C915 /* FhirApi+Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Expression.swift"; sourceTree = "<group>"; };
+		01BEA3152BF6A2C60097C915 /* FhirApi+ElementDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+ElementDefinition.swift"; sourceTree = "<group>"; };
+		01BEA3162BF6A2C60097C915 /* FhirApi+MarketingStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+MarketingStatus.swift"; sourceTree = "<group>"; };
+		01BEA3172BF6A2C60097C915 /* FhirApi+Narrative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Narrative.swift"; sourceTree = "<group>"; };
+		01BEA3182BF6A2C60097C915 /* FhirApi+Dosage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Dosage.swift"; sourceTree = "<group>"; };
+		01BEA3192BF6A2C60097C915 /* FhirApi+ContactDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+ContactDetail.swift"; sourceTree = "<group>"; };
+		01BEA31A2BF6A2C60097C915 /* FhirApi+DataRequirement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+DataRequirement.swift"; sourceTree = "<group>"; };
+		01BEA31B2BF6A2C60097C915 /* FhirApi+Count.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Count.swift"; sourceTree = "<group>"; };
+		01BEA31C2BF6A2C70097C915 /* FhirApi+Annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Annotation.swift"; sourceTree = "<group>"; };
+		01BEA31D2BF6A2C70097C915 /* FhirApi+Age.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Age.swift"; sourceTree = "<group>"; };
+		01BEA31E2BF6A2C70097C915 /* FhirApi+Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Distance.swift"; sourceTree = "<group>"; };
+		01BEA33B2BF6A2E00097C915 /* FhirApi+Signature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Signature.swift"; sourceTree = "<group>"; };
+		01BEA33C2BF6A2E00097C915 /* FhirApi+Quantity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Quantity.swift"; sourceTree = "<group>"; };
+		01BEA33D2BF6A2E10097C915 /* FhirApi+TriggerDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+TriggerDefinition.swift"; sourceTree = "<group>"; };
+		01BEA33E2BF6A2E10097C915 /* FhirApi+RelatedArtifact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+RelatedArtifact.swift"; sourceTree = "<group>"; };
+		01BEA33F2BF6A2E10097C915 /* FhirApi+UsageContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+UsageContext.swift"; sourceTree = "<group>"; };
+		01BEA3402BF6A2E10097C915 /* FhirApi+Ratio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Ratio.swift"; sourceTree = "<group>"; };
+		01BEA3412BF6A2E10097C915 /* FhirDatatype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FhirDatatype.swift; sourceTree = "<group>"; };
+		01BEA3422BF6A2E10097C915 /* FhirApi+Period.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Period.swift"; sourceTree = "<group>"; };
+		01BEA3432BF6A2E10097C915 /* FhirApi+Timing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Timing.swift"; sourceTree = "<group>"; };
+		01BEA3442BF6A2E10097C915 /* FhirApi+Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Range.swift"; sourceTree = "<group>"; };
+		01BEA3452BF6A2E10097C915 /* FhirApi+ProdCharacteristic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+ProdCharacteristic.swift"; sourceTree = "<group>"; };
+		01BEA3462BF6A2E10097C915 /* FhirApi+Reference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Reference.swift"; sourceTree = "<group>"; };
+		01BEA3472BF6A2E10097C915 /* FhirApi+ProductShelfLife.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+ProductShelfLife.swift"; sourceTree = "<group>"; };
+		01BEA3482BF6A2E10097C915 /* FhirApi+SampledData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+SampledData.swift"; sourceTree = "<group>"; };
+		01BEA3492BF6A2E10097C915 /* FhirApi+Population.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Population.swift"; sourceTree = "<group>"; };
+		01BEA34A2BF6A2E10097C915 /* FhirApi+RatioRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+RatioRange.swift"; sourceTree = "<group>"; };
+		01BEA35B2BF6A46B0097C915 /* FhirResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FhirResource.swift; sourceTree = "<group>"; };
+		01BEA35D2BF6A68C0097C915 /* FhirApi+MedicationStatement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+MedicationStatement.swift"; sourceTree = "<group>"; };
+		01BEA35F2BF6AACB0097C915 /* FhirApi+WrappedResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+WrappedResource.swift"; sourceTree = "<group>"; };
+		01BEA3642BF6C4B40097C915 /* JsonApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonApiClient.swift; sourceTree = "<group>"; };
+		01BEA3662BF6C5340097C915 /* SMPApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMPApi.swift; sourceTree = "<group>"; };
+		01BEA3682BF717020097C915 /* betsy-patient.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "betsy-patient.json"; sourceTree = "<group>"; };
+		01BEA3692BF727240097C915 /* FhirApi+List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+List.swift"; sourceTree = "<group>"; };
+		01BEA36A2BF727240097C915 /* FhirApi+Medication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Medication.swift"; sourceTree = "<group>"; };
+		01BEA36B2BF727240097C915 /* FhirApi+MedicationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+MedicationRequest.swift"; sourceTree = "<group>"; };
+		01BEA36C2BF727240097C915 /* FhirApi+GlobalEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+GlobalEnums.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01BEA2F72BF69A3E0097C915 /* AppStandard in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +216,17 @@
 		01BEA2C42BF68E680097C915 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				01BEA3632BF6C4A20097C915 /* api */,
+				01BEA2F22BF693F10097C915 /* fhir-api */,
+				01BEA2F02BF693DF0097C915 /* models */,
+				01BEA2F12BF693E90097C915 /* views */,
+				01BEA2F82BF69A930097C915 /* utility */,
 				01BEA2C52BF68E680097C915 /* SMPClientApp.swift */,
 				01BEA2C72BF68E680097C915 /* ContentView.swift */,
 				01BEA2C92BF68E6B0097C915 /* Assets.xcassets */,
 				01BEA2CB2BF68E6B0097C915 /* SMPClient.entitlements */,
 				01BEA2CC2BF68E6B0097C915 /* Preview Content */,
+				01BEA2F32BF694170097C915 /* EntryPoint.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -107,6 +234,7 @@
 		01BEA2CC2BF68E6B0097C915 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				01BEA3682BF717020097C915 /* betsy-patient.json */,
 				01BEA2CD2BF68E6B0097C915 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -116,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				01BEA2D72BF68E6B0097C915 /* SMPClientTests.swift */,
+				01BEA2FF2BF69C280097C915 /* XCTest+extenions.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -127,6 +256,98 @@
 				01BEA2E32BF68E6B0097C915 /* SMPClientUITestsLaunchTests.swift */,
 			);
 			path = UITests;
+			sourceTree = "<group>";
+		};
+		01BEA2F02BF693DF0097C915 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		01BEA2F12BF693E90097C915 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		01BEA2F22BF693F10097C915 /* fhir-api */ = {
+			isa = PBXGroup;
+			children = (
+				01BEA30A2BF6A2C60097C915 /* FhirApi.swift */,
+				01BEA3412BF6A2E10097C915 /* FhirDatatype.swift */,
+				01BEA35B2BF6A46B0097C915 /* FhirResource.swift */,
+				01BEA3692BF727240097C915 /* FhirApi+List.swift */,
+				01BEA36A2BF727240097C915 /* FhirApi+Medication.swift */,
+				01BEA36B2BF727240097C915 /* FhirApi+MedicationRequest.swift */,
+				01BEA35D2BF6A68C0097C915 /* FhirApi+MedicationStatement.swift */,
+				01BEA3012BF6A2270097C915 /* FhirApi+Patient.swift */,
+				01BEA30C2BF6A2C60097C915 /* FhirApi+Address.swift */,
+				01BEA31D2BF6A2C70097C915 /* FhirApi+Age.swift */,
+				01BEA31C2BF6A2C70097C915 /* FhirApi+Annotation.swift */,
+				01BEA30D2BF6A2C60097C915 /* FhirApi+Attachment.swift */,
+				01BEA3082BF6A2C60097C915 /* FhirApi+BackboneElement.swift */,
+				01BEA3102BF6A2C60097C915 /* FhirApi+CodeableConcept.swift */,
+				01BEA30F2BF6A2C60097C915 /* FhirApi+CodeableReference.swift */,
+				01BEA30B2BF6A2C60097C915 /* FhirApi+Coding.swift */,
+				01BEA3192BF6A2C60097C915 /* FhirApi+ContactDetail.swift */,
+				01BEA3112BF6A2C60097C915 /* FhirApi+ContactPoint.swift */,
+				01BEA3042BF6A2C60097C915 /* FhirApi+Contributor.swift */,
+				01BEA31B2BF6A2C60097C915 /* FhirApi+Count.swift */,
+				01BEA31A2BF6A2C60097C915 /* FhirApi+DataRequirement.swift */,
+				01BEA31E2BF6A2C70097C915 /* FhirApi+Distance.swift */,
+				01BEA3182BF6A2C60097C915 /* FhirApi+Dosage.swift */,
+				01BEA3122BF6A2C60097C915 /* FhirApi+Duration.swift */,
+				01BEA3132BF6A2C60097C915 /* FhirApi+Element.swift */,
+				01BEA3152BF6A2C60097C915 /* FhirApi+ElementDefinition.swift */,
+				01BEA3142BF6A2C60097C915 /* FhirApi+Expression.swift */,
+				01BEA3092BF6A2C60097C915 /* FhirApi+Extension.swift */,
+				01BEA36C2BF727240097C915 /* FhirApi+GlobalEnums.swift */,
+				01BEA30E2BF6A2C60097C915 /* FhirApi+HumanName.swift */,
+				01BEA3032BF6A2C60097C915 /* FhirApi+Identifier.swift */,
+				01BEA3162BF6A2C60097C915 /* FhirApi+MarketingStatus.swift */,
+				01BEA3052BF6A2C60097C915 /* FhirApi+Meta.swift */,
+				01BEA3062BF6A2C60097C915 /* FhirApi+Money.swift */,
+				01BEA3172BF6A2C60097C915 /* FhirApi+Narrative.swift */,
+				01BEA3072BF6A2C60097C915 /* FhirApi+ParameterDefinition.swift */,
+				01BEA3422BF6A2E10097C915 /* FhirApi+Period.swift */,
+				01BEA3492BF6A2E10097C915 /* FhirApi+Population.swift */,
+				01BEA3452BF6A2E10097C915 /* FhirApi+ProdCharacteristic.swift */,
+				01BEA3472BF6A2E10097C915 /* FhirApi+ProductShelfLife.swift */,
+				01BEA33C2BF6A2E00097C915 /* FhirApi+Quantity.swift */,
+				01BEA3442BF6A2E10097C915 /* FhirApi+Range.swift */,
+				01BEA3402BF6A2E10097C915 /* FhirApi+Ratio.swift */,
+				01BEA34A2BF6A2E10097C915 /* FhirApi+RatioRange.swift */,
+				01BEA3462BF6A2E10097C915 /* FhirApi+Reference.swift */,
+				01BEA33E2BF6A2E10097C915 /* FhirApi+RelatedArtifact.swift */,
+				01BEA3482BF6A2E10097C915 /* FhirApi+SampledData.swift */,
+				01BEA33B2BF6A2E00097C915 /* FhirApi+Signature.swift */,
+				01BEA3432BF6A2E10097C915 /* FhirApi+Timing.swift */,
+				01BEA33D2BF6A2E10097C915 /* FhirApi+TriggerDefinition.swift */,
+				01BEA33F2BF6A2E10097C915 /* FhirApi+UsageContext.swift */,
+				01BEA35F2BF6AACB0097C915 /* FhirApi+WrappedResource.swift */,
+			);
+			path = "fhir-api";
+			sourceTree = "<group>";
+		};
+		01BEA2F82BF69A930097C915 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				01BEA2F92BF69AA70097C915 /* Base.swift */,
+				01BEA2FD2BF69BB40097C915 /* Bundle+json_load.swift */,
+				01BEA2FB2BF69B3A0097C915 /* DateFormatter+extension.swift */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+		01BEA3632BF6C4A20097C915 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				01BEA3642BF6C4B40097C915 /* JsonApiClient.swift */,
+				01BEA3662BF6C5340097C915 /* SMPApi.swift */,
+			);
+			path = api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +366,9 @@
 			dependencies = (
 			);
 			name = SMPClient;
+			packageProductDependencies = (
+				01BEA2F62BF69A3E0097C915 /* AppStandard */,
+			);
 			productName = SMPClient;
 			productReference = 01BEA2C22BF68E680097C915 /* SMPClient.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +441,9 @@
 				Base,
 			);
 			mainGroup = 01BEA2B92BF68E680097C915;
+			packageReferences = (
+				01BEA2F52BF69A3E0097C915 /* XCRemoteSwiftPackageReference "AppStandard" */,
+			);
 			productRefGroup = 01BEA2C32BF68E680097C915 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +486,66 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01BEA35E2BF6A68C0097C915 /* FhirApi+MedicationStatement.swift in Sources */,
+				01BEA3582BF6A2E10097C915 /* FhirApi+SampledData.swift in Sources */,
+				01BEA34C2BF6A2E10097C915 /* FhirApi+Quantity.swift in Sources */,
+				01BEA36E2BF727240097C915 /* FhirApi+Medication.swift in Sources */,
+				01BEA3532BF6A2E10097C915 /* FhirApi+Timing.swift in Sources */,
+				01BEA32F2BF6A2C70097C915 /* FhirApi+Element.swift in Sources */,
+				01BEA3312BF6A2C70097C915 /* FhirApi+ElementDefinition.swift in Sources */,
+				01BEA3672BF6C5340097C915 /* SMPApi.swift in Sources */,
+				01BEA3292BF6A2C70097C915 /* FhirApi+Attachment.swift in Sources */,
+				01BEA3232BF6A2C70097C915 /* FhirApi+ParameterDefinition.swift in Sources */,
+				01BEA35A2BF6A2E10097C915 /* FhirApi+RatioRange.swift in Sources */,
+				01BEA32B2BF6A2C70097C915 /* FhirApi+CodeableReference.swift in Sources */,
+				01BEA3372BF6A2C70097C915 /* FhirApi+Count.swift in Sources */,
+				01BEA3612BF6AACB0097C915 /* FhirApi+WrappedResource.swift in Sources */,
+				01BEA3552BF6A2E10097C915 /* FhirApi+ProdCharacteristic.swift in Sources */,
+				01BEA32D2BF6A2C70097C915 /* FhirApi+ContactPoint.swift in Sources */,
+				01BEA3572BF6A2E10097C915 /* FhirApi+ProductShelfLife.swift in Sources */,
+				01BEA32A2BF6A2C70097C915 /* FhirApi+HumanName.swift in Sources */,
+				01BEA36F2BF727240097C915 /* FhirApi+MedicationRequest.swift in Sources */,
+				01BEA3352BF6A2C70097C915 /* FhirApi+ContactDetail.swift in Sources */,
+				01BEA3272BF6A2C70097C915 /* FhirApi+Coding.swift in Sources */,
+				01BEA2FA2BF69AA70097C915 /* Base.swift in Sources */,
+				01BEA3512BF6A2E10097C915 /* FhirDatatype.swift in Sources */,
+				01BEA32E2BF6A2C70097C915 /* FhirApi+Duration.swift in Sources */,
+				01BEA3502BF6A2E10097C915 /* FhirApi+Ratio.swift in Sources */,
 				01BEA2C82BF68E680097C915 /* ContentView.swift in Sources */,
+				01BEA3222BF6A2C70097C915 /* FhirApi+Money.swift in Sources */,
+				01BEA34B2BF6A2E10097C915 /* FhirApi+Signature.swift in Sources */,
+				01BEA2FC2BF69B3A0097C915 /* DateFormatter+extension.swift in Sources */,
+				01BEA34D2BF6A2E10097C915 /* FhirApi+TriggerDefinition.swift in Sources */,
+				01BEA3242BF6A2C70097C915 /* FhirApi+BackboneElement.swift in Sources */,
+				01BEA2F42BF694170097C915 /* EntryPoint.swift in Sources */,
+				01BEA3542BF6A2E10097C915 /* FhirApi+Range.swift in Sources */,
+				01BEA3342BF6A2C70097C915 /* FhirApi+Dosage.swift in Sources */,
+				01BEA34F2BF6A2E10097C915 /* FhirApi+UsageContext.swift in Sources */,
+				01BEA33A2BF6A2C70097C915 /* FhirApi+Distance.swift in Sources */,
+				01BEA31F2BF6A2C70097C915 /* FhirApi+Identifier.swift in Sources */,
+				01BEA3262BF6A2C70097C915 /* FhirApi.swift in Sources */,
+				01BEA34E2BF6A2E10097C915 /* FhirApi+RelatedArtifact.swift in Sources */,
 				01BEA2C62BF68E680097C915 /* SMPClientApp.swift in Sources */,
+				01BEA3322BF6A2C70097C915 /* FhirApi+MarketingStatus.swift in Sources */,
+				01BEA3522BF6A2E10097C915 /* FhirApi+Period.swift in Sources */,
+				01BEA3302BF6A2C70097C915 /* FhirApi+Expression.swift in Sources */,
+				01BEA3652BF6C4B40097C915 /* JsonApiClient.swift in Sources */,
+				01BEA3332BF6A2C70097C915 /* FhirApi+Narrative.swift in Sources */,
+				01BEA3592BF6A2E10097C915 /* FhirApi+Population.swift in Sources */,
+				01BEA3362BF6A2C70097C915 /* FhirApi+DataRequirement.swift in Sources */,
+				01BEA3702BF727240097C915 /* FhirApi+GlobalEnums.swift in Sources */,
+				01BEA3212BF6A2C70097C915 /* FhirApi+Meta.swift in Sources */,
+				01BEA36D2BF727240097C915 /* FhirApi+List.swift in Sources */,
+				01BEA3022BF6A2270097C915 /* FhirApi+Patient.swift in Sources */,
+				01BEA3382BF6A2C70097C915 /* FhirApi+Annotation.swift in Sources */,
+				01BEA3562BF6A2E10097C915 /* FhirApi+Reference.swift in Sources */,
+				01BEA3252BF6A2C70097C915 /* FhirApi+Extension.swift in Sources */,
+				01BEA35C2BF6A46B0097C915 /* FhirResource.swift in Sources */,
+				01BEA3202BF6A2C70097C915 /* FhirApi+Contributor.swift in Sources */,
+				01BEA3282BF6A2C70097C915 /* FhirApi+Address.swift in Sources */,
+				01BEA3392BF6A2C70097C915 /* FhirApi+Age.swift in Sources */,
+				01BEA32C2BF6A2C70097C915 /* FhirApi+CodeableConcept.swift in Sources */,
+				01BEA2FE2BF69BB40097C915 /* Bundle+json_load.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +553,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01BEA3002BF69C280097C915 /* XCTest+extenions.swift in Sources */,
 				01BEA2D82BF68E6B0097C915 /* SMPClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -619,6 +905,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01BEA2F52BF69A3E0097C915 /* XCRemoteSwiftPackageReference "AppStandard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/astechishin/AppStandard";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01BEA2F62BF69A3E0097C915 /* AppStandard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01BEA2F52BF69A3E0097C915 /* XCRemoteSwiftPackageReference "AppStandard" */;
+			productName = AppStandard;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 01BEA2BA2BF68E680097C915 /* Project object */;
 }
