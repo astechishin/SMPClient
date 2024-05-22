@@ -173,6 +173,9 @@ extension FhirApi {
     }
 }
 
-protocol Resource {
+protocol Resource: Decodable {
+    static var resourceName: String { get }
+    
     var resourceType: String { get }
+    var id: String? { get }
 }

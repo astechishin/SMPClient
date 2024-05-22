@@ -8,7 +8,7 @@
 import Foundation
 
 extension Bundle {
-    func load<T:Decodable>(_ filename: String, as type:T.Type = T.self) -> T {
+    func jsonLoad<T:Decodable>(_ filename: String, as type:T.Type = T.self) -> T {
         let data: Data
         
         guard let file = self.url(forResource: filename, withExtension: "json")
@@ -25,8 +25,8 @@ extension Bundle {
         
         do {
             let decoder = JSONDecoder()
-            decoder.dateDecodingStrategy = .iso8601
-            // decoder.dateDecodingStrategy = .formatted(DateFormatter.justDate)
+//            decoder.dateDecodingStrategy = .iso8601
+            decoder.dateDecodingStrategy = .formatted(DateFormatter.justDate)
             return try decoder.decode(T.self, from: data)
         } catch {
             fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")

@@ -10,10 +10,15 @@ import SwiftUI
 
 
 struct SMPClientApp: App {
+    @State var patientAndDrugs = PatientAndDrugs()
+
+    @AppStorage("patientId") private var currentPatient: String = ""
+
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        .environmentObject(patientAndDrugs)
     }
 }
 

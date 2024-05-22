@@ -151,4 +151,8 @@ enum FhirResource: String, Codable {
     func profileName() -> String {
         self.rawValue.lowercased() + ".profile.json"
     }
+    
+    var name: String {
+        self.rawValue
+    }
 }

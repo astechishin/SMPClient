@@ -1,0 +1,814 @@
+[
+  {
+    "id": "smp-med-list-1",
+    "title": "Home Medication List",
+    "medList": {
+      "resourceType": "List",
+      "id": "smp-med-list-1",
+      "text": {
+        "status": "generated",
+        "div": "<div>Home Medication List</div>"
+      },
+      "status": "current",
+      "mode": "snapshot",
+      "title": "Home Medication List",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "104205-0",
+            "display": "Standard Medication List"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/patientBSJ1",
+        "display": "Betsy Johnson"
+      },
+      "date": "2024-04-08",
+      "entry": [
+        {
+          "date": "2024-04-08",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-1-1",
+            "display": "Atorvastatin 40 mg nightly"
+          }
+        },
+        {
+          "date": "2024-04-08",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-1-2",
+            "display": "Sertraline 25 mg nightly"
+          }
+        },
+        {
+          "date": "2024-04-08",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-1-3",
+            "display": "Furosemide 20 mg daily"
+          }
+        },
+        {
+          "date": "2024-04-08",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-1-4",
+            "display": "Carvedilol 6.25 mg twice daily"
+          }
+        },
+        {
+          "date": "2024-04-08",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-1-5",
+            "display": "Glipizide 2.5 mg daily"
+          }
+        },
+        {
+          "date": "2024-04-08",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-1-6",
+            "display": "Calcium 500 mg"
+          }
+        },
+        {
+          "date": "2024-04-08",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-1-7",
+            "display": "Vitamin D 800 IU"
+          }
+        },
+        {
+          "date": "2024-04-08",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-1-8",
+            "display": "Tylenol (Acetaminophen) 650 mg every 6 hours or as needed for pain"
+          }
+        },
+        {
+          "date": "2024-04-08",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-1-9",
+            "display": "Ferrous Sulfate 325 mg three times a day before meals"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "smp-med-list-2",
+    "title": "Hospial Medication Administration List",
+    "medList": {
+      "resourceType": "List",
+      "id": "smp-med-list-2",
+      "text": {
+        "status": "generated",
+        "div": "<div>Hospial Medication Administration List</div>"
+      },
+      "status": "current",
+      "mode": "snapshot",
+      "title": "Hospial Medication Administration List",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "104207-6",
+            "display": "Institution Administration List"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/patientBSJ1",
+        "display": "Betsy Johnson"
+      },
+      "date": "2024-04-18",
+      "entry": [
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-10",
+            "display": "Atorvastatin 40 mg po nightly"
+          }
+        },
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-11",
+            "display": "Sertraline 25 mg po nightly"
+          }
+        },
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-12",
+            "display": "Furosemide 20 mg po daily"
+          }
+        },
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-13",
+            "display": "Carvedilol to 6.25mg po twice a day (goal to discontinue Beta Blocker when BP under control) DC at discharge"
+          }
+        },
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-14",
+            "display": "Metformin 250mg po daily"
+          }
+        },
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-15",
+            "display": "Empagliflozin (Jardiance) 10mg po qd"
+          }
+        },
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-16",
+            "display": "Clopidogrel 75mg po daily"
+          }
+        },
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-17",
+            "display": "Losartan 50mg po daily (monitor Potassium)"
+          }
+        },
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-18",
+            "display": "Ferrous Gluconate 325mg po daily"
+          }
+        },
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-19",
+            "display": "Hydrocodone/APAP 5/325mg; 1-2 tabs po every 4h prn pain (1 tab -1-5 scale; 2 tabs -6-10 scale) DC at discharge"
+          }
+        },
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-20",
+            "display": "Accuchecks before meals and at bedtime"
+          }
+        },
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-21",
+            "display": "Polyethylene glycol 3350 17g po daily prn constipation"
+          }
+        },
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-22",
+            "display": "Docusate Soldium 100mg po twice daily"
+          }
+        },
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-23",
+            "display": "Ondansetron 4mg tabletpo q6h prn nausea/vomiting"
+          }
+        },
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-24",
+            "display": "Novolin-R Sliding scale insulin protocol"
+          }
+        },
+        {
+          "date": "2024-04-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2-25",
+            "display": "Hydralazine IV 10mg q4h pen SBP>160, if Hydralazine not effective Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55 per hospital protocol"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "smp-med-list-2B",
+    "title": "Hospital Discharge Medication List",
+    "medList": {
+      "resourceType": "List",
+      "id": "smp-med-list-2B",
+      "text": {
+        "status": "generated",
+        "div": "<div>Hospital Discharge Medication List</div>"
+      },
+      "status": "current",
+      "mode": "snapshot",
+      "title": "Hospital Discharge Medication List",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "104204-3",
+            "display": "Institution Discharge List"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/patientBSJ1",
+        "display": "Betsy Johnson"
+      },
+      "date": "2024-04-23",
+      "entry": [
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2B-26",
+            "display": "Atorvastatin 40 mg po nightly"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2B-27",
+            "display": "Sertraline 25 mg po nightly"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2B-28",
+            "display": "Furosemide 20 mg po daily"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2B-29",
+            "display": "Carvedilol 6.5mg po twice a day (goal to discontinue Beta Blocker when BP under control) DC at discharge)"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2B-30",
+            "display": "Metformin 500mg po daily"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2B-31",
+            "display": "Empagliflozin (Jardiance) 10mg po qd"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2B-32",
+            "display": "Clopidogrel 75mg po daily"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2B-33",
+            "display": "Losartan 50mg po daily (monitor Potassium)"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2B-34",
+            "display": "Ferrous Gluconate 325mg po daily"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2B-35",
+            "display": "Acetaminophen 325mg 2 tablets every 6 hours or as needed for mild pain"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2B-36",
+            "display": "Accuchecks before meals and at bedtime"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2B-37",
+            "display": "Polyethylene glycol 3350 17g po daily prn constipation"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2B-38",
+            "display": "Docusate 100mg po twice daily (please add \"Sodium\")"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2B-39",
+            "display": "Ondansetron 4mg tablet po q6h prn nausea/vomiting"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-2B-40",
+            "display": "Novolin-R Sliding scale insulin protocol"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "smp-med-list-3",
+    "title": "SNF Medication Administration List",
+    "medList": {
+      "resourceType": "List",
+      "id": "smp-med-list-3",
+      "text": {
+        "status": "generated",
+        "div": "<div>SNF Medication  Administration List</div>"
+      },
+      "status": "current",
+      "mode": "snapshot",
+      "title": "SNF Medication  Administration List",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "104207-6",
+            "display": "Institution Administration List"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/patientBSJ1",
+        "display": "Betsy Johnson"
+      },
+      "date": "2024-04-23",
+      "entry": [
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3-41",
+            "display": "Atorvastatin 40 mg 1 tablet po at bedtime"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3-42",
+            "display": "Sertraline 50mg 1 tablet po at bedtime"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3-43",
+            "display": "Furosemide 20 mg 1 tablet po daily"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3-44",
+            "display": "Carvedilol 6.25mg 1 tablet po BID (DC when BP under control)"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3-45",
+            "display": "Metformin 500mg 1 tablet by mouth daily"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3-46",
+            "display": "Empagliflozin (Jardiance) 10mg 1 tablet by mouth daily"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3-47",
+            "display": "Clopidogrel 75mg 1 tablet po daily"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3-48",
+            "display": "Losartan 50mg 1 tablet po daily (monitor Potassium)"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3-49",
+            "display": "Ferrous Gluconate 325mg po daily"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3-50",
+            "display": "Acetaminophen 325mg 2 tablets every 6 hours or as needed for mild pain"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3-51",
+            "display": "Accuchecks before meals and at bedtime x 3 days then prn depending on results (purpose of hypoglycemics is to manage bs to prevent symptoms of polyuria and hypoglycemia and not to reach an A1c goal)"
+          }
+        },
+        {
+          "date": "2024-04-23",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3-52",
+            "display": "Polyethylene glycol 3350 17g po daily prn constipation"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "smp-med-list-3B",
+    "title": "SNF Discharge Medication List",
+    "medList": {
+      "resourceType": "List",
+      "id": "smp-med-list-3B",
+      "text": {
+        "status": "generated",
+        "div": "<div>SNF Discharge Medication List</div>"
+      },
+      "status": "current",
+      "mode": "snapshot",
+      "title": "SNF Discharge Medication List",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "104204-3",
+            "display": "Institution Discharge List"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/patientBSJ1",
+        "display": "Betsy Johnson"
+      },
+      "date": "2024-05-16",
+      "entry": [
+        {
+          "date": "2024-05-16",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3B-53",
+            "display": "Atorvastatin 40 mg 1 tablet po at bedtime"
+          }
+        },
+        {
+          "date": "2024-05-16",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3B-54",
+            "display": "Sertraline 50 mg 1 tablet po at bedtime"
+          }
+        },
+        {
+          "date": "2024-05-16",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3B-55",
+            "display": "Furosemide 20 mg 1 tablet po daily"
+          }
+        },
+        {
+          "date": "2024-05-16",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3B-56",
+            "display": "Metformin 500mg 1 tablet by mouth daily"
+          }
+        },
+        {
+          "date": "2024-05-16",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3B-57",
+            "display": "Empagliflozin (Jardiance) 10mg 1 tablet by mouth daily"
+          }
+        },
+        {
+          "date": "2024-05-16",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3B-58",
+            "display": "Clopidogrel 75mg 1 tablet by mouth daily"
+          }
+        },
+        {
+          "date": "2024-05-16",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3B-59",
+            "display": "Losartan 50mg 1 tablet po daily"
+          }
+        },
+        {
+          "date": "2024-05-16",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3B-60",
+            "display": "Ferrous Gluconate 325mg po daily"
+          }
+        },
+        {
+          "date": "2024-05-16",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3B-61",
+            "display": "Acetaminophen 325mg 2 tablets by mouth every 6 hours or as needed for pain"
+          }
+        },
+        {
+          "date": "2024-05-16",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3B-62",
+            "display": "Accuchecks BID"
+          }
+        },
+        {
+          "date": "2024-05-16",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-3B-63",
+            "display": "Polyethylene glycol 3350 (Miralax) 17g by mouth daily as needed for constipation"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "smp-med-list-4",
+    "title": "Home Health Active Medication List",
+    "medList": {
+      "resourceType": "List",
+      "id": "smp-med-list-4",
+      "text": {
+        "status": "generated",
+        "div": "<div>Home Health Active Medication List</div>"
+      },
+      "status": "current",
+      "mode": "snapshot",
+      "title": "Home Health Active Medication List",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "104202-7",
+            "display": "Active Medication List"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/patientBSJ1",
+        "display": "Betsy Johnson"
+      },
+      "date": "2024-05-17",
+      "entry": [
+        {
+          "date": "2024-05-17",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-4-64",
+            "display": "Atorvastatin 40 mg 1 tablet by mouth at bedtime"
+          }
+        },
+        {
+          "date": "2024-05-17",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-4-65",
+            "display": "Sertraline 50 mg 1 tablet po at bedtime"
+          }
+        },
+        {
+          "date": "2024-05-17",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-4-66",
+            "display": "Furosemide 20 mg 1 tablet po daily"
+          }
+        },
+        {
+          "date": "2024-05-17",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-4-67",
+            "display": "Metformin 500mg 1 tablet by mouth daily"
+          }
+        },
+        {
+          "date": "2024-05-17",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-4-68",
+            "display": "Empagliflozin (Jardiance) 10mg 1 tablet by mouth daily"
+          }
+        },
+        {
+          "date": "2024-05-17",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-4-69",
+            "display": "Clopidogrel 75mg 1 tablet by mouth daily"
+          }
+        },
+        {
+          "date": "2024-05-17",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-4-70",
+            "display": "Losartan 50mg 1 tablet po daily"
+          }
+        },
+        {
+          "date": "2024-05-17",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-4-71",
+            "display": "Ferrous Gluconate 325mg po daily"
+          }
+        },
+        {
+          "date": "2024-05-17",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-4-72",
+            "display": "Acetaminophen (Tylenol) 325mg 2 tablets every 6 hours or as needed for pain"
+          }
+        },
+        {
+          "date": "2024-05-17",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-4-73",
+            "display": "Accuchecks BID"
+          }
+        },
+        {
+          "date": "2024-05-17",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-4-74",
+            "display": "Polyethylene glycol 3350 (Miralax) 17g by mouth daily as needed for constipation"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "smp-med-list-5",
+    "title": "Community Pharmacy Reconciled Medication List",
+    "medList": {
+      "resourceType": "List",
+      "id": "smp-med-list-5",
+      "text": {
+        "status": "generated",
+        "div": "<div>Community Pharmacy Reconciled Medication List</div>"
+      },
+      "status": "current",
+      "mode": "snapshot",
+      "title": "Community Pharmacy Reconciled Medication List",
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "104203-5",
+            "display": "Reconciled Medication List"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/patientBSJ1",
+        "display": "Betsy Johnson"
+      },
+      "date": "2024-05-18",
+      "entry": [
+        {
+          "date": "2024-05-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-5-75",
+            "display": "Atorvastatin 40 mg 1 tablet by mouth at bedtime"
+          }
+        },
+        {
+          "date": "2024-05-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-5-76",
+            "display": "Sertraline 50 mg 1 tablet po at bedtime"
+          }
+        },
+        {
+          "date": "2024-05-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-5-77",
+            "display": "Furosemide 20 mg 1 tablet po daily"
+          }
+        },
+        {
+          "date": "2024-05-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-5-78",
+            "display": "Metformin 500mg 1 tablet by mouth daily"
+          }
+        },
+        {
+          "date": "2024-05-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-5-79",
+            "display": "Empagliflozin (Jardiance) 10mg 1 tablet by mouth daily"
+          }
+        },
+        {
+          "date": "2024-05-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-5-80",
+            "display": "Clopidogrel 75mg 1 tablet by mouth daily"
+          }
+        },
+        {
+          "date": "2024-05-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-5-81",
+            "display": "Losartan 50mg 1 tablet po daily"
+          }
+        },
+        {
+          "date": "2024-05-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-5-82",
+            "display": "Ferrous Gluconate 325mg po daily"
+          }
+        },
+        {
+          "date": "2024-05-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-5-83",
+            "display": "Acetaminophen (Tylenol) 325mg 2 tablets every 6 hours or as needed for pain"
+          }
+        },
+        {
+          "date": "2024-05-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-5-84",
+            "display": "Accuchecks BID, if diabetes controlled no need to daily"
+          }
+        },
+        {
+          "date": "2024-05-18",
+          "item": {
+            "reference": "MedicationStatement/smp-medstmt-5-85",
+            "display": "Polyethylene glycol 3350 (Miralax) 17g by mouth daily as needed for constipation"
+          }
+        }
+      ]
+    }
+  }
+]

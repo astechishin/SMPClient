@@ -74,6 +74,21 @@
 		01BEA36E2BF727240097C915 /* FhirApi+Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA36A2BF727240097C915 /* FhirApi+Medication.swift */; };
 		01BEA36F2BF727240097C915 /* FhirApi+MedicationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA36B2BF727240097C915 /* FhirApi+MedicationRequest.swift */; };
 		01BEA3702BF727240097C915 /* FhirApi+GlobalEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BEA36C2BF727240097C915 /* FhirApi+GlobalEnums.swift */; };
+		01E493112BF913EF00AA10A3 /* FhirApiResourceParsingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E493102BF913EF00AA10A3 /* FhirApiResourceParsingTest.swift */; };
+		01E493142BF919EB00AA10A3 /* betsy-patient.json in Resources */ = {isa = PBXBuildFile; fileRef = 01E493122BF9152500AA10A3 /* betsy-patient.json */; };
+		01E493162BF9291300AA10A3 /* JSONDecoder+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E493152BF9291300AA10A3 /* JSONDecoder+extensions.swift */; };
+		01E4931A2BF92DC200AA10A3 /* DecoderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E493192BF92DC200AA10A3 /* DecoderType.swift */; };
+		01E4931B2BF936D100AA10A3 /* med-request.json in Resources */ = {isa = PBXBuildFile; fileRef = 01E493172BF92D1F00AA10A3 /* med-request.json */; };
+		01E4931E2BF93E1500AA10A3 /* med-statement.json in Resources */ = {isa = PBXBuildFile; fileRef = 01E4931C2BF93BE300AA10A3 /* med-statement.json */; };
+		01E493202BF9458500AA10A3 /* med-list.json in Resources */ = {isa = PBXBuildFile; fileRef = 01E4931F2BF9458500AA10A3 /* med-list.json */; };
+		01E493282BF986D900AA10A3 /* PatientAndDrugs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E493262BF9834E00AA10A3 /* PatientAndDrugs.swift */; };
+		01E493292BF994C300AA10A3 /* betsy-patient.json in Resources */ = {isa = PBXBuildFile; fileRef = 01BEA3682BF717020097C915 /* betsy-patient.json */; };
+		01E4932B2BF9954E00AA10A3 /* SelectPatientPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E4932A2BF9954E00AA10A3 /* SelectPatientPanel.swift */; };
+		01E4932D2BF9A93100AA10A3 /* list-summaries.json in Resources */ = {isa = PBXBuildFile; fileRef = 01E4932C2BF9A93100AA10A3 /* list-summaries.json */; };
+		01E4932F2BF9B6DE00AA10A3 /* MedListBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E4932E2BF9B6DE00AA10A3 /* MedListBundle.swift */; };
+		01E493312BFA3FBC00AA10A3 /* med-list-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 01E493302BFA3FBC00AA10A3 /* med-list-1.json */; };
+		01E493332BFA406500AA10A3 /* MedicationListPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E493322BFA406500AA10A3 /* MedicationListPanel.swift */; };
+		01E493352BFA5C5D00AA10A3 /* MedicationPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E493342BFA5C5D00AA10A3 /* MedicationPanel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,6 +180,20 @@
 		01BEA36A2BF727240097C915 /* FhirApi+Medication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+Medication.swift"; sourceTree = "<group>"; };
 		01BEA36B2BF727240097C915 /* FhirApi+MedicationRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+MedicationRequest.swift"; sourceTree = "<group>"; };
 		01BEA36C2BF727240097C915 /* FhirApi+GlobalEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FhirApi+GlobalEnums.swift"; sourceTree = "<group>"; };
+		01E493102BF913EF00AA10A3 /* FhirApiResourceParsingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FhirApiResourceParsingTest.swift; sourceTree = "<group>"; };
+		01E493122BF9152500AA10A3 /* betsy-patient.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "betsy-patient.json"; sourceTree = "<group>"; };
+		01E493152BF9291300AA10A3 /* JSONDecoder+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+extensions.swift"; sourceTree = "<group>"; };
+		01E493172BF92D1F00AA10A3 /* med-request.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "med-request.json"; sourceTree = "<group>"; };
+		01E493192BF92DC200AA10A3 /* DecoderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoderType.swift; sourceTree = "<group>"; };
+		01E4931C2BF93BE300AA10A3 /* med-statement.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "med-statement.json"; sourceTree = "<group>"; };
+		01E4931F2BF9458500AA10A3 /* med-list.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "med-list.json"; sourceTree = "<group>"; };
+		01E493262BF9834E00AA10A3 /* PatientAndDrugs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientAndDrugs.swift; sourceTree = "<group>"; };
+		01E4932A2BF9954E00AA10A3 /* SelectPatientPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPatientPanel.swift; sourceTree = "<group>"; };
+		01E4932C2BF9A93100AA10A3 /* list-summaries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "list-summaries.json"; sourceTree = "<group>"; };
+		01E4932E2BF9B6DE00AA10A3 /* MedListBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedListBundle.swift; sourceTree = "<group>"; };
+		01E493302BFA3FBC00AA10A3 /* med-list-1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "med-list-1.json"; sourceTree = "<group>"; };
+		01E493322BFA406500AA10A3 /* MedicationListPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationListPanel.swift; sourceTree = "<group>"; };
+		01E493342BFA5C5D00AA10A3 /* MedicationPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationPanel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,9 +247,9 @@
 			children = (
 				01BEA3632BF6C4A20097C915 /* api */,
 				01BEA2F22BF693F10097C915 /* fhir-api */,
-				01BEA2F02BF693DF0097C915 /* models */,
-				01BEA2F12BF693E90097C915 /* views */,
+				01E493242BF9827000AA10A3 /* models */,
 				01BEA2F82BF69A930097C915 /* utility */,
+				01E493252BF9830C00AA10A3 /* views */,
 				01BEA2C52BF68E680097C915 /* SMPClientApp.swift */,
 				01BEA2C72BF68E680097C915 /* ContentView.swift */,
 				01BEA2C92BF68E6B0097C915 /* Assets.xcassets */,
@@ -236,6 +265,8 @@
 			children = (
 				01BEA3682BF717020097C915 /* betsy-patient.json */,
 				01BEA2CD2BF68E6B0097C915 /* Preview Assets.xcassets */,
+				01E4932C2BF9A93100AA10A3 /* list-summaries.json */,
+				01E493302BFA3FBC00AA10A3 /* med-list-1.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -243,6 +274,8 @@
 		01BEA2D62BF68E6B0097C915 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				01E4930F2BF9118C00AA10A3 /* support-files */,
+				01E4930E2BF9117400AA10A3 /* fhir-api */,
 				01BEA2D72BF68E6B0097C915 /* SMPClientTests.swift */,
 				01BEA2FF2BF69C280097C915 /* XCTest+extenions.swift */,
 			);
@@ -256,20 +289,6 @@
 				01BEA2E32BF68E6B0097C915 /* SMPClientUITestsLaunchTests.swift */,
 			);
 			path = UITests;
-			sourceTree = "<group>";
-		};
-		01BEA2F02BF693DF0097C915 /* models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		01BEA2F12BF693E90097C915 /* views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = views;
 			sourceTree = "<group>";
 		};
 		01BEA2F22BF693F10097C915 /* fhir-api */ = {
@@ -337,6 +356,8 @@
 				01BEA2F92BF69AA70097C915 /* Base.swift */,
 				01BEA2FD2BF69BB40097C915 /* Bundle+json_load.swift */,
 				01BEA2FB2BF69B3A0097C915 /* DateFormatter+extension.swift */,
+				01E493152BF9291300AA10A3 /* JSONDecoder+extensions.swift */,
+				01E493192BF92DC200AA10A3 /* DecoderType.swift */,
 			);
 			path = utility;
 			sourceTree = "<group>";
@@ -346,8 +367,46 @@
 			children = (
 				01BEA3642BF6C4B40097C915 /* JsonApiClient.swift */,
 				01BEA3662BF6C5340097C915 /* SMPApi.swift */,
+				01E4932E2BF9B6DE00AA10A3 /* MedListBundle.swift */,
 			);
 			path = api;
+			sourceTree = "<group>";
+		};
+		01E4930E2BF9117400AA10A3 /* fhir-api */ = {
+			isa = PBXGroup;
+			children = (
+				01E493102BF913EF00AA10A3 /* FhirApiResourceParsingTest.swift */,
+			);
+			path = "fhir-api";
+			sourceTree = "<group>";
+		};
+		01E4930F2BF9118C00AA10A3 /* support-files */ = {
+			isa = PBXGroup;
+			children = (
+				01E493122BF9152500AA10A3 /* betsy-patient.json */,
+				01E493172BF92D1F00AA10A3 /* med-request.json */,
+				01E4931C2BF93BE300AA10A3 /* med-statement.json */,
+				01E4931F2BF9458500AA10A3 /* med-list.json */,
+			);
+			path = "support-files";
+			sourceTree = "<group>";
+		};
+		01E493242BF9827000AA10A3 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				01E493262BF9834E00AA10A3 /* PatientAndDrugs.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		01E493252BF9830C00AA10A3 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				01E4932A2BF9954E00AA10A3 /* SelectPatientPanel.swift */,
+				01E493322BFA406500AA10A3 /* MedicationListPanel.swift */,
+				01E493342BFA5C5D00AA10A3 /* MedicationPanel.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -461,7 +520,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				01BEA2CE2BF68E6B0097C915 /* Preview Assets.xcassets in Resources */,
+				01E493292BF994C300AA10A3 /* betsy-patient.json in Resources */,
+				01E4932D2BF9A93100AA10A3 /* list-summaries.json in Resources */,
 				01BEA2CA2BF68E6B0097C915 /* Assets.xcassets in Resources */,
+				01E493312BFA3FBC00AA10A3 /* med-list-1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +531,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E493202BF9458500AA10A3 /* med-list.json in Resources */,
+				01E4931B2BF936D100AA10A3 /* med-request.json in Resources */,
+				01E4931E2BF93E1500AA10A3 /* med-statement.json in Resources */,
+				01E493142BF919EB00AA10A3 /* betsy-patient.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,14 +566,17 @@
 				01BEA32B2BF6A2C70097C915 /* FhirApi+CodeableReference.swift in Sources */,
 				01BEA3372BF6A2C70097C915 /* FhirApi+Count.swift in Sources */,
 				01BEA3612BF6AACB0097C915 /* FhirApi+WrappedResource.swift in Sources */,
+				01E4931A2BF92DC200AA10A3 /* DecoderType.swift in Sources */,
 				01BEA3552BF6A2E10097C915 /* FhirApi+ProdCharacteristic.swift in Sources */,
 				01BEA32D2BF6A2C70097C915 /* FhirApi+ContactPoint.swift in Sources */,
 				01BEA3572BF6A2E10097C915 /* FhirApi+ProductShelfLife.swift in Sources */,
 				01BEA32A2BF6A2C70097C915 /* FhirApi+HumanName.swift in Sources */,
+				01E493282BF986D900AA10A3 /* PatientAndDrugs.swift in Sources */,
 				01BEA36F2BF727240097C915 /* FhirApi+MedicationRequest.swift in Sources */,
 				01BEA3352BF6A2C70097C915 /* FhirApi+ContactDetail.swift in Sources */,
 				01BEA3272BF6A2C70097C915 /* FhirApi+Coding.swift in Sources */,
 				01BEA2FA2BF69AA70097C915 /* Base.swift in Sources */,
+				01E4932B2BF9954E00AA10A3 /* SelectPatientPanel.swift in Sources */,
 				01BEA3512BF6A2E10097C915 /* FhirDatatype.swift in Sources */,
 				01BEA32E2BF6A2C70097C915 /* FhirApi+Duration.swift in Sources */,
 				01BEA3502BF6A2E10097C915 /* FhirApi+Ratio.swift in Sources */,
@@ -528,6 +597,8 @@
 				01BEA2C62BF68E680097C915 /* SMPClientApp.swift in Sources */,
 				01BEA3322BF6A2C70097C915 /* FhirApi+MarketingStatus.swift in Sources */,
 				01BEA3522BF6A2E10097C915 /* FhirApi+Period.swift in Sources */,
+				01E493162BF9291300AA10A3 /* JSONDecoder+extensions.swift in Sources */,
+				01E493352BFA5C5D00AA10A3 /* MedicationPanel.swift in Sources */,
 				01BEA3302BF6A2C70097C915 /* FhirApi+Expression.swift in Sources */,
 				01BEA3652BF6C4B40097C915 /* JsonApiClient.swift in Sources */,
 				01BEA3332BF6A2C70097C915 /* FhirApi+Narrative.swift in Sources */,
@@ -539,11 +610,13 @@
 				01BEA3022BF6A2270097C915 /* FhirApi+Patient.swift in Sources */,
 				01BEA3382BF6A2C70097C915 /* FhirApi+Annotation.swift in Sources */,
 				01BEA3562BF6A2E10097C915 /* FhirApi+Reference.swift in Sources */,
+				01E4932F2BF9B6DE00AA10A3 /* MedListBundle.swift in Sources */,
 				01BEA3252BF6A2C70097C915 /* FhirApi+Extension.swift in Sources */,
 				01BEA35C2BF6A46B0097C915 /* FhirResource.swift in Sources */,
 				01BEA3202BF6A2C70097C915 /* FhirApi+Contributor.swift in Sources */,
 				01BEA3282BF6A2C70097C915 /* FhirApi+Address.swift in Sources */,
 				01BEA3392BF6A2C70097C915 /* FhirApi+Age.swift in Sources */,
+				01E493332BFA406500AA10A3 /* MedicationListPanel.swift in Sources */,
 				01BEA32C2BF6A2C70097C915 /* FhirApi+CodeableConcept.swift in Sources */,
 				01BEA2FE2BF69BB40097C915 /* Bundle+json_load.swift in Sources */,
 			);
@@ -554,6 +627,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01BEA3002BF69C280097C915 /* XCTest+extenions.swift in Sources */,
+				01E493112BF913EF00AA10A3 /* FhirApiResourceParsingTest.swift in Sources */,
 				01BEA2D82BF68E6B0097C915 /* SMPClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -706,7 +780,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Sources/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Sources/Preview\\ Content Sources/Preview\\ Content/betsy-patient.json";
 				DEVELOPMENT_TEAM = LR5W9MSDE2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -745,7 +819,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Sources/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Sources/Preview\\ Content Sources/Preview\\ Content/betsy-patient.json";
 				DEVELOPMENT_TEAM = LR5W9MSDE2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;

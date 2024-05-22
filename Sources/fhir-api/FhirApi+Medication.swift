@@ -17,6 +17,8 @@ extension FhirApi {
     /// making statements about medication use.
     /// 
     struct Medication: Codable, Resource {
+        static let resourceName = "Medication"
+        
         /// Identifies a particular constituent of interest in the product.
         /// 
         struct Ingredient: Codable {

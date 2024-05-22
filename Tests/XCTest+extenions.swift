@@ -7,6 +7,7 @@
 
 import Foundation
 import XCTest
+@testable import SMPClient
 
 extension XCTest {
     /// Read a JSON file into an object, used to test the Decodable implementation
@@ -17,7 +18,7 @@ extension XCTest {
     ///   - file: the file that invoked this method (do not specify unless calling from another convenience method)
     ///   - line: the line in the invoking method (do not specify unless calling from another convenience method)
     /// - Returns:the parsed results of the requested type
-    public func parseJSON<T: Decodable>(from fileName: String, fileBundle: Bundle? = nil,
+    public func parseJSON<T: Decodable>(from fileName: String, fileBundle: Bundle? = nil, decoderType: DecoderType = .onlyDate,
                                         file: StaticString = #filePath, line: UInt = #line) -> T? {
         let bundle: Bundle
         
@@ -36,11 +37,11 @@ extension XCTest {
             return nil
         }
         
-        let decoder = JSONDecoder()
+        //let decoder = JSONDecoder()
         //decoder.dateDecodingStrategy = .iso8601
         //decoder.dateDecodingStrategy = .formatted(DateFormatter.justDate)
-        guard let localJSON = try? decoder.decode(T.self, from: data) else {
-            XCTAssertNoThrow(try decoder.decode(T.self, from: data), file: file, line: line)
+        guard let localJSON = try? decoderType.decoder.decode(T.self, from: data) else {
+            XCTAssertNoThrow(try decoderType.decoder.decode(T.self, from: data), file: file, line: line)
             return nil
         }
         return localJSON

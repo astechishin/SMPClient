@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+struct MedListBundle: Resource {
+    static let resourceName = "Bundle"
+    
+    struct Entry: Codable {
+        var resource: FhirApi.List?
+    }
+    
+    let resourceType = "Bundle"
+    
+    var id: String?
+    var total: Int?
+    var entry: [Entry]?
+}

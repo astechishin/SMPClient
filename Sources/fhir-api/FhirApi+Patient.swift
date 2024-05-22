@@ -15,8 +15,10 @@ extension FhirApi {
     /// care or other health-related services.
     /// 
     struct Patient: Codable, Resource {
+        static let resourceName = "Patient"
+
         /// A contact party (e.g. guardian, partner, friend) for the patient.
-        /// 
+        ///
         struct Contact: Codable {
             /// Unique id for inter-element referencing
             var id: String?

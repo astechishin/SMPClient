@@ -51,6 +51,8 @@ extension FhirApi {
     /// is more formal and is not missing detailed information.
     /// 
     struct MedicationStatement: Codable, Resource {
+        static let resourceName = "MedicationStatement"
+
         let resourceType = "MedicationStatement"
 
         /// Logical id of this artifact
@@ -68,7 +70,7 @@ extension FhirApi {
         /// Contained, inline Resources
         var contained: [WrappedResource]?
 
-        /// Additional content defined by implementations
+        /// Additional content defined by implementationsch
         var `extension`: [Extension]?
 
         /// Extensions that cannot be ignored

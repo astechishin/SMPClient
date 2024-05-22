@@ -21,8 +21,10 @@ extension FhirApi {
     /// workflow patterns.
     /// 
     struct MedicationRequest: Codable, Resource {
+        static let resourceName = "MedicationRequest"
+
         /// Indicates the specific details for the dispense or medication supply part of a medication 
-        /// request (also known as a Medication Prescription or Medication Order).  Note that this 
+        /// request (also known as a Medication Prescription or Medication Order).  Note that this
         /// information is not always sent with the order.  There may be in some settings (e.g. 
         /// hospitals) institutional or system support for completing the dispense details in the 
         /// pharmacy department.

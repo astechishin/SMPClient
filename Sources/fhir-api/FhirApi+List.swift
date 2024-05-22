@@ -13,6 +13,8 @@ extension FhirApi {
     /// A list is a curated collection of resources.
     /// 
     struct List: Codable, Resource {
+        static let resourceName = "List"
+        
         /// Entries in this list.
         /// 
         struct Entry: Codable {

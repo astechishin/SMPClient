@@ -19,6 +19,7 @@ public struct Base {
         case login
         case dbAction
         case importTx
+        case serverRetrieve
         case importData
         case exportDB
         case testing
